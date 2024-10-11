@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#home{
+    background-image: url(https://media.istockphoto.com/id/1312918053/pt/foto/defocused-background-and-copy-space-image-of-dental-office-with-dentist-chair-and-equipment.jpg?s=612x612&w=0&k=20&c=VRqoNnXP98mg5JALCPei0ER4-MZA2bFVXp_UD0_BNyI=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+    background-attachment: fixed;
+}
+
+header h1{
+    justify-content: center;
+    text-align: center;
+    font-size: 80px;
+    font-family: "Updock", cursive;
+}
+header h2{
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #457a91;
+    text-decoration: overline;
+    padding-top: 1%;
+}
+
+header img{
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.container{
+    text-align: center;
+}
+
+main h2{
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #6096ad;
+    padding-top: 1%;
+}
+main pre{
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 2%;
+    border-radius: 15px;
+    
+}
+
+.cta-button{
+    padding: 15px 30px;
+    color: azure;
+    background-color: #5abbd3;
+    margin-top: 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px #031e50;
+}
+
+main p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1%;
+    text-align: center;
+}
+
+.button{
+    text-align: center;
+    margin-top: 18%;
+}
+
+
+@media (max-width:480px){
+    header h2 {
+        font-size: 20px;
+    }
+    header h1{
+        font-size: 67px
+    }
+    main p{
+        font-size: 14px;
+    }
+    main h2{
+        font-size: 30px;
+    }
+}
+@media (max-width:768px){
+    header h2{
+        font-size: 40px;
+    }
+    main h2{
+        font-size: 30px;
+    }
+    main pre{
+        font-size: 20px;
+    }
+    main p{
+        font-size: 17px;
+    }
+}
